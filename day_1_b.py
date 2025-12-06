@@ -1,7 +1,7 @@
 
 def main():
     data = []
-    with open("day1/1_data.txt") as f:
+    with open("data/1_data.txt") as f:
         lines = f.readlines()
         for line in lines:
             sign = line[0]

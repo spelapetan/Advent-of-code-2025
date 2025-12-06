@@ -24,7 +24,7 @@ def check_symmetry(num: str):
 
 def main():
     ranges = []
-    with open("day2/2_data.txt") as f:
+    with open("data/2_data.txt") as f:
         lines = f.readlines()
         data = lines[0].split(",")
         for r in data:

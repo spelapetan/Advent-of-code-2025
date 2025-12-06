@@ -1,7 +1,7 @@
 
 def main():
     data = []
-    with open("day3/3_data.txt") as f:
+    with open("data/3_data.txt") as f:
         lines = f.readlines()
         for line in lines:
             data.append(line.strip())

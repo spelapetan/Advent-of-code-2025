@@ -16,7 +16,7 @@ def can_be_taken(i, j, data, num_rows, num_cols):
 
 def main():
     data = []
-    with open("day4/4_data.txt") as f:
+    with open("data/4_data.txt") as f:
         lines = f.readlines()
         for line in lines:
             data.append(line.strip())
