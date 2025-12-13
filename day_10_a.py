@@ -5,7 +5,7 @@ def min_num_of_pushes(buttons, on_lights):
     pushes = []
     n = len(on_lights)
     for combo in combs:
-        comb_lights = list("." * n)
+        comb_lights = ["."] * n
         for i, on_off in enumerate(combo):
             if on_off:
                 button = buttons[i]
